@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<screen name="home" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_character"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="1184" alpha="1">
+			<image src="assets/home/background.png" x="0" y="0" width="720" height="1184" />
+			<image src="assets/choose_character/character.png" x="0" y="0" width="720" height="1184" />
+			<hotspot x="18" y="436" width="720" height="106" event="OPEN_POPUP" target="loginPopup" />
+		</container>
+		
+	</screen>
+	<popup>
+		<container name="loginPopup" x="0" y="0" width="720" height="1280" background="assets/choose_character/popup_login.png" alpha="0">
+			<hotspot x="624" y="0" width="95" height="95" event="CLOSE_POPUP" target="loginPopup" />
+			<hotspot x="246" y="331" width="224" height="239" event="FACEBOOK_LOGIN" target="home" />
+			<hotspot x="73" y="261" width="232" height="234" event="FACEBOOK_LOGIN" target="home" />
+			<hotspot x="402" y="618" width="660" height="130" event="FACEBOOK_LOGIN" target="home" />
+		</container>
+	</popup>
+</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<screen name="profile" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_profile"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/home/background.png" x="0" y="0" width="720" height="1588" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot background="assets/profile/info.png" width="720" height="472" event="" target="" />
+			<hotspot background="assets/profile/awards.png" y="473" width="363" height="253" event="CHANGE_SCREEN" target="prizes" />
+			<hotspot background="assets/profile/myorders.png" x="364" y="473" width="357" height="253" event="" target="" />
+			<hotspot background="assets/profile/notifications.png" x="0" y="727" width="363" height="252" event="" target="" />
+			<hotspot background="assets/profile/configs.png" x="364" y="727" width="357" height="252" event="" target="" />
+			<hotspot background="assets/profile/ranking.png" x="0" y="980" width="363" height="272" event="CHANGE_SCREEN" target="ranking" />
+			<hotspot background="assets/profile/help.png" x="364" y="980" width="357" height="272" event="" target="" />
+		</scrollList>
+	</screen>
+</data>

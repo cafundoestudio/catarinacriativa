@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_d610bc691a6eb4539c88fd1516071e88cf4a35956bcbb89d78479695f1b3dec4_flash_display_Sprite" mod="1376234613612" signatureChecksum="1887861365" >
+        <def id="_d610bc691a6eb4539c88fd1516071e88cf4a35956bcbb89d78479695f1b3dec4_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/NotificationIconType" mod="1340042758000" signatureChecksum="2140694601" >
+        <def id="com.juankpro.ane.localnotif:NotificationIconType" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/NotificationManager" mod="1340042758000" signatureChecksum="3489706041" >
+        <def id="com.juankpro.ane.localnotif:NotificationManager" /> 
+        <dep id="com.juankpro.ane.localnotif:NotificationEvent" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.juankpro.ane.localnotif:NotificationEvent" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.juankpro.ane.localnotif:Notification" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/Notification" mod="1347837006000" signatureChecksum="1222824432" >
+        <def id="com.juankpro.ane.localnotif:Notification" /> 
+        <dep id="com.juankpro.ane.localnotif:NotificationIconType" type="e" /> 
+        <dep id="com.juankpro.ane.localnotif:NotificationAlertPolicy" type="e" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/NotificationAlertPolicy" mod="1340042758000" signatureChecksum="1090014104" >
+        <def id="com.juankpro.ane.localnotif:NotificationAlertPolicy" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/NotificationEvent" mod="1340042758000" signatureChecksum="1084914293" >
+        <def id="com.juankpro.ane.localnotif:NotificationEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/juankpro/ane/localnotif/NotificationTimeInterval" mod="1347501154000" signatureChecksum="562349213" >
+        <def id="com.juankpro.ane.localnotif:NotificationTimeInterval" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="ef7604f9c42bb4d8b398f145fb4ba3e08364488b78fb14aaad9c9d8a743d398e"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

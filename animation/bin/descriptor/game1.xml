@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+	<screen name="game1" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_game1"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="background" x="0" y="0" width="720" height="1280" alpha="1">
+			<image src="assets/activities/activity/background.png" x="0" y="0" width="720" height="1186" />
+		</container>
+	</screen>
+	
+</data>

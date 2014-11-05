@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="fake" x="720" y="0" width="720" height="1186" alpha="1">
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="720" y="0" alpha="0" />
+		</transitions>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot background="assets/fakeScreen.png" width="720" height="1584" event="CHANGE_SCREEN" target="fakeScreenDescriptor" />
+		</scrollList>
+		
+	</screen>
+	
+</data>

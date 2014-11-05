@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<actionbar x="0" y="0" width="720" height="96" background="assets/actionbar/actionbar.png" alpha="1">
+		<states>
+			<state name="actionbar_episodes" x="0" y="0" width="720" height="96" alpha="1">
+				<container name="menu" x="" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/menu.png" x="30" y="36" width="52" height="29" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="MENU" target="" />
+				</container>
+				<text value="Episódios" x="100" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<image src="assets/actionbar/share.png" x="655" y="22" width="39" height="48" />
+			</state>
+			
+			<state name="actionbar_episode1" x="0" y="0" width="720" height="96">
+				<container name="episode1" x="3" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/back.png" x="37" y="36" width="14" height="28" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				</container>
+				<text value="Episódio 1" x="85" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<hotspot background="assets/actionbar/sync.png" x="655" y="22" width="39" height="48" event="RECORD_DATA" target="syncPopup" episode="episode1" />
+			</state>
+			
+			<state name="actionbar_episode1_detail" x="0" y="0" width="720" height="96">
+				<container name="episode1_detail" x="3" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/back.png" x="37" y="36" width="14" height="28" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				</container>
+				<text value="Episódio 1" x="85" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<image src="assets/actionbar/chat.png" x="595" y="39" width="45" height="41" />
+				<image src="assets/actionbar/share.png" x="655" y="22" width="39" height="48" />
+			</state>
+			
+			<state name="actionbar_episode1_travelers" x="0" y="0" width="720" height="96" alpha="1">
+				<container name="episode1_travelers" x="3" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/back.png" x="37" y="36" width="14" height="28" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				</container>
+				<text value="Viajantes" x="85" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<image src="assets/actionbar/share.png" x="655" y="22" width="39" height="48" />
+			</state>
+			
+			<state name="actionbar_episode1_tips" x="0" y="0" width="720" height="96">
+				<container name="episode1_tips" x="3" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/back.png" x="37" y="36" width="14" height="28" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				</container>
+				<text value="Dicas" x="85" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<image src="assets/actionbar/chat.png" x="595" y="39" width="45" height="41" />
+				<image src="assets/actionbar/share.png" x="655" y="22" width="39" height="48" />
+			</state>
+			
+			<state name="actionbar_episode1_ra" x="0" y="0" width="720" height="96">
+				<container name="episode1_ra" x="3" y="0" width="100" height="96" background="" alpha="1">
+					<image src="assets/actionbar/back.png" x="37" y="36" width="14" height="28" />
+					<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				</container>
+				<text value="Viva Florianópolis" x="85" y="25" size="32" color="0xFFFFFF" bold="false" />
+				<image src="assets/actionbar/chat.png" x="595" y="39" width="45" height="41" />
+				<image src="assets/actionbar/share.png" x="655" y="22" width="39" height="48" />
+			</state>
+		</states>		
+	</actionbar>
+	
+	<screenContainer x="0" y="96" width="720" height="1184" background="assets/misc/screen.jpg" alpha="1">
+	</screenContainer>
+	
+	<popupContainer x="0" y="0" width="720" height="1280" alpha="1">
+	</popupContainer>
+	
+	<menu x="-610" y="0" width="610" height="1280" background="assets/misc/menu.png" alpha="1">
+		<hotspot y="109" width="610" height="150" event="CHANGE_SCREEN" target="episodes" />
+		<hotspot y="260" width="610" height="150" event="RECORD_DATA" target="syncPopup" />
+	</menu>
+	
+</data>

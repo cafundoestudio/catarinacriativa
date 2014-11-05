@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+	<screen name="episode1" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/episodes/episode1/background.png" x="0" y="0" width="720" height="1588" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot width="708" height="322" event="NAVIGATE_TO_URL" target="http://www.youtube.com/watch?v=rRTVwykciPw">
+				<container name="video" background="assets/episodes/episode1/small_white.png" x="7" y="8" width="708" height="322" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot width="713" height="126" event="CHANGE_SCREEN" target="episode1">
+				<container name="text" background="assets/episodes/episode1/text_big_bg.png" x="7" y="0" width="708" height="847" alpha="1">
+					<text value="A, E, I, O, U / Eu vou te ensinar / A, E, I, O, U / Quero ouvir você cantar / A, E, I, O, U / Eu vou te ensinar / A, E, I, O, U / Quero ouvir você cantar / Com A se escreve abelha, arco-íris e anel / Com E se escreve estrela esticadinha lá no céu / Com I se escreve iglu que é a casinha do esquimó / Com O se escreve óculos para os olhinhos da vovó / Com U se escreve uva que é roxa e docinha / Agora você sabe escrever as palavrinhas / Com A, com E / Com I, com O, com U / São cinco vogaizinhas no Mundo das Palavrinhas." x="10" y="10" width="680" height="835" size="24" color="0x555555" bold="true" />
+				</container>
+			</hotspot>
+		</scrollList>
+	</screen>
+	
+</data>

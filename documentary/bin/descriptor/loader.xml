@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<LoaderMax name="loader" maxConnections="1" load="true">
+
+		<ImageLoader name="screen" url="assets/misc/screen.jpg" load="true" estimatedBytes="69018" />
+		<ImageLoader name="menu" url="assets/misc/menu.png" load="true" estimatedBytes="41984" />
+		<ImageLoader name="more" url="assets/misc/more.png" load="true" estimatedBytes="1024" />
+		<ImageLoader name="less" url="assets/misc/less.png" load="true" estimatedBytes="1024" />
+		<ImageLoader name="gallery" url="assets/misc/gallery.png" load="true" estimatedBytes="122880" />
+		<ImageLoader name="tips" url="assets/misc/tips.png" load="true" estimatedBytes="142336" />
+		<ImageLoader name="travelers" url="assets/misc/travelers.png" load="true" estimatedBytes="131072" />
+		<ImageLoader name="ra" url="assets/misc/ra.png" load="true" estimatedBytes="1111490" />
+		<ImageLoader name="sync" url="assets/misc/sync.png" load="true" estimatedBytes="24576" />
+		<ImageLoader name="no_match" url="assets/misc/no_match.png" load="true" estimatedBytes="24576" />
+		<ImageLoader name="background_list" url="assets/misc/background_list.png" load="true" estimatedBytes="24576" />
+		
+		<ImageLoader name="experiment" url="assets/misc/experiment.png" load="true" estimatedBytes="154624" />
+		<ImageLoader name="comment" url="assets/misc/comment.png" load="true" estimatedBytes="12288" />
+		<ImageLoader name="comment1" url="assets/misc/comment1.png" load="true" estimatedBytes="34816" />
+		<ImageLoader name="comment2" url="assets/misc/comment2.png" load="true" estimatedBytes="34816" />
+		<ImageLoader name="comment3" url="assets/misc/comment3.png" load="true" estimatedBytes="34816" />
+		<ImageLoader name="comment4" url="assets/misc/comment4.png" load="true" estimatedBytes="34816" />
+		
+		<ImageLoader name="tip1" url="assets/misc/tip1.png" load="true" estimatedBytes="133120" />
+		<ImageLoader name="tip2" url="assets/misc/tip2.png" load="true" estimatedBytes="133120" />
+		<ImageLoader name="tip3" url="assets/misc/tip3.png" load="true" estimatedBytes="133120" />
+		<ImageLoader name="tip4" url="assets/misc/tip4.png" load="true" estimatedBytes="133120" />
+		<ImageLoader name="tip5" url="assets/misc/tip5.png" load="true" estimatedBytes="133120" />
+		<ImageLoader name="tip6" url="assets/misc/tip6.png" load="true" estimatedBytes="133120" />
+		
+		<ImageLoader name="actionbar" url="assets/actionbar/actionbar.png" load="true" estimatedBytes="1048" />
+		<ImageLoader name="menu" url="assets/actionbar/menu.png" load="true" estimatedBytes="1032" />
+		<ImageLoader name="share" url="assets/actionbar/share.png" load="true" estimatedBytes="1048" />
+		<ImageLoader name="sync" url="assets/actionbar/sync.png" load="true" estimatedBytes="2048" />
+		<ImageLoader name="back" url="assets/actionbar/back.png" load="true" estimatedBytes="1024" />
+		<ImageLoader name="back" url="assets/actionbar/chat.png" load="true" estimatedBytes="1024" />
+		
+		<ImageLoader name="episode1_lock" url="assets/episodes/episode1/episode1_lock.png" load="true" estimatedBytes="138240" />
+		<ImageLoader name="episode1_top" url="assets/episodes/episode1/episode1_top.png" load="true" estimatedBytes="427008" />
+		<ImageLoader name="episode_smalltop" url="assets/episodes/episode1/episode1_smalltop.png" load="true" estimatedBytes="192512" />
+		<ImageLoader name="episode1_map" url="assets/episodes/episode1/episode1_map.png" load="true" estimatedBytes="73728" />
+		<ImageLoader name="episode1_promotion" url="assets/episodes/episode1/episode1_promotion.png" load="true" estimatedBytes="88064" />
+		<ImageLoader name="episode1_ra" url="assets/episodes/episode1/episode1_ra.png" load="true" estimatedBytes="152576" />
+		
+		<ImageLoader name="item1" url="assets/listEpisodes/item1.png" load="true" estimatedBytes="17920" />
+		<ImageLoader name="item2" url="assets/listEpisodes/item2.png" load="true" estimatedBytes="340992" />
+		<ImageLoader name="item3" url="assets/listEpisodes/item3.png" load="true" estimatedBytes="336896" />
+		<ImageLoader name="item4" url="assets/listEpisodes/item4.png" load="true" estimatedBytes="249856" />
+		<ImageLoader name="item5" url="assets/listEpisodes/item5.png" load="true" estimatedBytes="289792" />
+		<ImageLoader name="item5" url="assets/listEpisodes/item6.png" load="true" estimatedBytes="336896" />
+		
+		<XMLLoader name="descriptor" url="descriptor/screenDescriptor.xml" load="true" estimatedBytes="1024" />
+		
+		<XMLLoader name="episodes" url="descriptor/episodes.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1" url="descriptor/episode1.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode2" url="descriptor/episode2.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_detail" url="descriptor/episode1_detail.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_unlocked" url="descriptor/episode1_unlocked.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_tips" url="descriptor/episode1_tips.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_travelers" url="descriptor/episode1_travelers.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_ra" url="descriptor/episode1_ra.xml" load="true" estimatedBytes="1024" />
+		
+	</LoaderMax>
+</data>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episodes" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episodes"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="background" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/misc/background_list.png" x="0" y="0" width="720" height="1280" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot background="" width="720" height="250" event="RECORD_DATA" target="syncPopup" >
+				<container width="720" height="250" background="assets/listEpisodes/item1.png" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot background="assets/listEpisodes/item2.png" width="720" height="250" event="CHANGE_SCREEN" target="episode1" />
+			<hotspot background="assets/listEpisodes/item3.png" width="720" height="250" event="CHANGE_SCREEN" target="episode2" />
+			<hotspot background="assets/listEpisodes/item4.png" width="720" height="250" event="CHANGE_SCREEN" target="episode1" />
+			<hotspot background="assets/listEpisodes/item5.png" width="720" height="250" event="CHANGE_SCREEN" target="episode1" />
+			<hotspot background="assets/listEpisodes/item6.png" width="720" height="250" event="CHANGE_SCREEN" target="episode1" />
+		</scrollList>
+	</screen>
+	
+	<popup>
+		
+		<container name="syncPopup" x="0" y="0" width="720" height="1280" background="assets/misc/sync.png" alpha="0">
+		</container>
+		
+		<container name="noMatchPopup" x="0" y="0" width="720" height="1280" background="assets/misc/no_match.png" alpha="0">
+			<hotspot width="720" height="1280" event="CLOSE_POPUP" target="noMatchPopup" />
+		</container>
+		
+	</popup>
+	
+</data>

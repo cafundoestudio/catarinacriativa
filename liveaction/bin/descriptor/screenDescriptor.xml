@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<actionbar x="0" y="0" width="720" height="96" alpha="1">
+		<states>
+			<state name="actionbar_home" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/menu.png" x="32" y="34" width="52" height="29" />
+				<image src="assets/actionbar/title.png" x="232" y="30" width="248" height="32" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="MENU" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_home_points" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar_points.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/menu.png" x="32" y="34" width="52" height="29" />
+				<image src="assets/actionbar/title.png" x="232" y="30" width="248" height="32" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="MENU" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_profile" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="PERFIL" x="62" y="23" size="36" color="0xfbe008" bold="true" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			
+			<state name="actionbar_empty" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/title.png" x="232" y="30" width="248" height="32" />
+			</state>
+			<state name="actionbar_challenges" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="DESAFIOS" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_challenge" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="VÍDEO BAZINGA" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_chat" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="INTERATIVIDADE" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_ranking" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="RANKING" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_prizes" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="PRÊMIOS CONQUISTADOS" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+			<state name="actionbar_episodes" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<text value="EPISÓDIOS" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+			</state>
+			<state name="actionbar_character" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<text value="ESCOLHER TIME" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+			</state>
+			<state name="actionbar_store" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="30" y="32" width="14" height="28" />
+				<image src="assets/actionbar/social.png" x="568" y="27" width="55" height="46" />
+				<image src="assets/actionbar/episodes.png" x="636" y="27" width="55" height="44" />
+				<text value="LOJA" x="62" y="23" size="36" color="0xfbe008" bold="false" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+				<hotspot background="" x="568" y="0" width="55" height="96" event="CHANGE_SCREEN" target="chat" />
+				<hotspot background="" x="636" y="0" width="55" height="96" event="CHANGE_SCREEN" target="episodes" />
+			</state>
+		</states>		
+	</actionbar>
+	
+	<screenContainer x="0" y="96" width="720" height="1184" background="assets/misc/background.png" alpha="1">
+	</screenContainer>
+	
+	<popupContainer x="0" y="0" width="720" height="1280" alpha="1">
+	</popupContainer>
+	
+	<menu x="-612" y="0" width="612" height="1280" alpha="1">
+		<image src="assets/misc/menu.png" width="612" height="1280" />
+		<hotspot x="0" y="0" width="612" height="110" event="CHANGE_SCREEN" target="episodes" />
+		<hotspot x="0" y="111" width="612" height="110" event="CHANGE_SCREEN" target="challenges" />
+		<hotspot x="0" y="222" width="612" height="110" event="CHANGE_SCREEN" target="ranking" />
+		<hotspot x="0" y="333" width="612" height="110" event="CHANGE_SCREEN" target="profile" />
+		<hotspot x="0" y="444" width="612" height="110" event="CHANGE_SCREEN" target="store" />
+		<hotspot x="0" y="555" width="612" height="110" event="CHANGE_SCREEN" target="chat" />
+	</menu>
+	
+</data>

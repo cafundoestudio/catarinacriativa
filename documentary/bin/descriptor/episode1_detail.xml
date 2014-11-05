@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episode1_detail" x="0" y="0" width="720" height="1186" alpha="0" actionbarstate="2" menustate="2">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1_detail"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="informations" x="0" y="0" width="720" height="1186" backgroundColor="0xFFFFFF" alpha="1">
+			<image src="assets/episodes/episode1/episode1_top.png" x="0" y="0" width="720" height="341" />
+			<text x="25" y="370" width="670" height="700" size="28" color="0x464646" value="Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos. Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações coloniais do século XVI com mercados e parques tranquilos." />
+			<image src="assets/misc/less.png" x="340" y="1160" width="28" height="14" />
+			<hotspot width="720" height="40" x="0" y="1145" event="BACK" target="episode1" />
+		</container>
+	</screen>
+	
+</data>

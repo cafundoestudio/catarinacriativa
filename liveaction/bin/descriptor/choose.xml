@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="choose" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_empty"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/home/background.png" x="0" y="0" width="720" height="1588" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot x="0" y="0" width="720" height="248" event="CHANGE_SCREEN" target="character">
+				<container x="19" y="0" width="682" height="248" background="assets/choose/white_box.png" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot x="0" y="248" width="720" height="343" event="CHANGE_SCREEN" target="character">
+				<container x="19" y="0" width="342" height="343" background="assets/choose/character_1.png" alpha="1">
+				</container>
+				<container x="361" y="0" width="342" height="343" background="assets/choose/character_2.png" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot x="0" y="591" width="720" height="343" event="CHANGE_SCREEN" target="character">
+				<container x="19" y="0" width="342" height="343" background="assets/choose/character_3.png" alpha="1">
+				</container>
+				<container x="361" y="0" width="342" height="343" background="assets/choose/character_4.png" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot x="0" y="934" width="720" height="343" event="CHANGE_SCREEN" target="character">
+				<container x="19" y="0" width="342" height="343" background="assets/choose/character_5.png" alpha="1">
+				</container>
+				<container x="361" y="0" width="342" height="343" background="assets/choose/character_6.png" alpha="1">
+				</container>
+			</hotspot>
+			<hotspot x="0" y="1277" width="720" height="200" event="CHANGE_SCREEN" target="character">
+				<container x="313" y="0" width="89" height="117" background="assets/choose/help.png" alpha="1">
+				</container>
+			</hotspot>
+		</scrollList>
+	</screen>
+	
+</data>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episodes_unlocked" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1_detail"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="background" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/misc/background_list.png" x="0" y="0" width="720" height="1280" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="1186">
+			<hotspot background="assets/episodes/episode1/episode1_smalltop.png" width="720" height="138" event="CHANGE_SCREEN" target="episode1_detail" />
+			<hotspot background="assets/misc/gallery.png" width="720" height="200" />
+			<hotspot background="assets/misc/tips.png" width="720" height="200" event="CHANGE_SCREEN" target="episode1_tips" />
+			<hotspot background="assets/misc/travelers.png" width="720" height="200" event="CHANGE_SCREEN" target="episode1_travelers" />
+			<hotspot background="assets/episodes/episode1/episode1_promotion.png" width="720" height="300" />
+			<hotspot background="assets/episodes/episode1/episode1_map.png" width="720" height="200" />
+			<hotspot background="assets/episodes/episode1/episode1_ra.png" width="720" height="200" event="CHANGE_SCREEN" target="episode1_ra" />
+		</scrollList>
+	</screen>
+	
+</data>

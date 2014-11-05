@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episodes" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episodes"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/listEpisodes/top_locked.png" x="0" y="0" width="720" height="78" />
+			<image src="assets/listEpisodes/background.png" x="0" y="78" width="720" height="1680" />
+			<hotspot x="0" y="0" width="360" height="78" event="CHANGE_SCREEN" target="episodes" />
+			<hotspot x="360" y="0" width="360" height="78" event="CHANGE_SCREEN" target="episodes_locked" />
+		</container>
+		
+		<scrollList x="0" y="78" width="720" height="1108">
+			<hotspot background="assets/listEpisodes/episode6_locked.png" width="720" height="302" event="CREATE_PUSH" target="" />
+			<hotspot background="assets/listEpisodes/episode7_locked.png" width="720" height="295" event="CREATE_PUSH" target="" />
+			<hotspot background="assets/listEpisodes/episode8_locked.png" width="720" height="296" event="CREATE_PUSH" target="" />
+			<hotspot background="assets/listEpisodes/episode9_locked.png" width="720" height="298" event="CREATE_PUSH" target="" />
+			<hotspot background="assets/listEpisodes/episode10_locked.png" width="720" height="297" event="CREATE_PUSH" target="" />
+		</scrollList>
+	</screen>
+	
+</data>

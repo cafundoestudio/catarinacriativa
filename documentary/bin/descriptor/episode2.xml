@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episode1" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1"/>
+		<unlocked>episode1_unlocked</unlocked>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="informations" x="0" y="0" width="720" height="1186" backgroundColor="0xFFFFFF" alpha="1">
+			<image src="assets/episodes/episode1/episode1_top.png" x="0" y="0" width="720" height="341" />
+			<text x="25" y="370" width="670" height="400" size="28" color="0x464646" value="Florianópolis é um destino cada vez mais procurado devido às suas praias perfeitas, o excelente surfe, os frutos do mar deliciosos e a combinação de uma cidade grande moderna com fortificações..." />
+			<image src="assets/misc/more.png" x="340" y="550" width="28" height="14" />
+			<hotspot width="720" height="40" x="0" y="535" event="CHANGE_SCREEN" target="episode1_detail" />
+			<image src="assets/episodes/episode1/episode1_lock.png" x="0" y="591" width="720" height="592" />
+			<hotspot width="720" height="592" x="0" y="591" event="RECORD_DATA" target="syncPopup" episode="episode2" />
+		</container>
+		
+	</screen>
+	
+	<popup>
+		
+		<container name="syncPopup" x="0" y="0" width="720" height="1280" background="assets/misc/sync.png" alpha="0">
+		</container>
+		
+		<container name="noMatchPopup" x="0" y="0" width="720" height="1280" background="assets/misc/no_match.png" alpha="0">
+			<hotspot width="720" height="1280" event="CLOSE_POPUP" target="noMatchPopup" />
+		</container>
+		
+	</popup>
+	
+</data>

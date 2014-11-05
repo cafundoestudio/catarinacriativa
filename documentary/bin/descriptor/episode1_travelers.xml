@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episodes_travelers" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1_travelers"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="background" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/misc/background_list.png" x="0" y="0" width="720" height="1280" />
+		</container>
+		
+		<container name="comment"  background="assets/misc/experiment.png"  x="0" y="0" width="720" height="137" alpha="1">
+		</container>
+		
+		<scrollList x="0" y="137" width="720" height="854">
+			<hotspot background="assets/misc/comment1.png" width="720" height="263" />
+			<hotspot background="assets/misc/comment2.png" width="720" height="201" />
+			<hotspot background="assets/misc/comment3.png" width="720" height="186" />
+			<hotspot background="assets/misc/comment4.png" width="720" height="254" />
+		</scrollList>
+		
+		<container name="comment" x="0" y="942" width="720" height="244" alpha="1">
+			<hotspot background="assets/misc/comment.png" x="0" y="0" width="720" height="244" event="CHANGE_SCREEN" target="episode1_unlocked" />
+		</container>
+	</screen>
+	
+</data>

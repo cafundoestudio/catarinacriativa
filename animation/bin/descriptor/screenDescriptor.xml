@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<actionbar x="0" y="0" width="720" height="96" alpha="1">
+		<states>
+			<state name="actionbar_home" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/menu.png" x="22" y="22" width="56" height="56" />
+				<image src="assets/actionbar/like.png" x="652" y="27" width="47" height="50" />
+				<image src="assets/actionbar/stars.png" x="580" y="18" width="51" height="61" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="MENU" target="" />
+			</state>
+			<state name="actionbar_games" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar_color.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="22" y="25" width="53" height="50" />
+				<image src="assets/actionbar/like.png" x="652" y="27" width="47" height="50" />
+				<image src="assets/actionbar/stars.png" x="580" y="18" width="51" height="61" />
+				<text value="Jogos" x="100" y="23" size="36" color="0x2799d2" bold="true" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+			</state>
+			<state name="actionbar_game1" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar_color.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="22" y="25" width="53" height="50" />
+				<image src="assets/actionbar/like.png" x="652" y="27" width="47" height="50" />
+				<image src="assets/actionbar/stars.png" x="580" y="18" width="51" height="61" />
+				<text value="Jogo da Memória" x="100" y="23" size="36" color="0x2799d2" bold="true" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+			</state>
+			<state name="actionbar_episodes" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar_color.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="22" y="25" width="53" height="50" />
+				<image src="assets/actionbar/like.png" x="652" y="27" width="47" height="50" />
+				<image src="assets/actionbar/stars.png" x="580" y="18" width="51" height="61" />
+				<text value="Episódios" x="100" y="23" size="36" color="0x2799d2" bold="true" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+			</state>
+			<state name="actionbar_episode1" x="0" y="0" width="720" height="96" alpha="1">
+				<image src="assets/actionbar/actionbar_color.png" x="0" y="0" width="720" height="96" />
+				<image src="assets/actionbar/back.png" x="22" y="25" width="53" height="50" />
+				<image src="assets/actionbar/like.png" x="652" y="27" width="47" height="50" />
+				<image src="assets/actionbar/stars.png" x="580" y="18" width="51" height="61" />
+				<text value="Mundo das Palavrinhas" x="100" y="23" size="36" color="0x2799d2" bold="true" />
+				<hotspot background="" x="0" y="0" width="100" height="96" event="BACK" target="" />
+			</state>
+		</states>		
+	</actionbar>
+	
+	<screenContainer x="0" y="96" width="720" height="1184" background="assets/misc/background.png" alpha="1">
+	</screenContainer>
+	
+	<popupContainer x="0" y="0" width="720" height="1280" alpha="1">
+	</popupContainer>
+	
+	<menu x="-612" y="0" width="612" height="1280" alpha="1">
+		<image src="assets/misc/menu.png" width="612" height="1280" />
+		<hotspot background="" x="0" y="0" width="612" height="120" event="CHANGE_SCREEN" target="episodes" />
+		<hotspot background="" x="0" y="121" width="612" height="120" event="CHANGE_SCREEN" target="games" />
+	</menu>
+	
+</data>

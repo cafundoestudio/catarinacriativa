@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="challenge" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_challenge"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/home/background.png" x="0" y="0" width="720" height="1588" />
+			<image src="assets/challenge/challenge.png" x="20" y="0" width="680" height="939" />
+			<hotspot x="0" y="810" width="720" height="140" event="FACEBOOK_PICTURE" target="home_points" />
+		</container>
+	</screen>
+	
+</data>

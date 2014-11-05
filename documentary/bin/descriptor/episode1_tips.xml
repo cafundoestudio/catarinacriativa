@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="episodes_tips" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_episode1_tips"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="background" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/misc/background_list.png" x="0" y="0" width="720" height="1280" />
+		</container>
+		
+		<scrollList x="0" y="0" width="720" height="991">
+			<hotspot background="assets/misc/tip1.png" width="720" height="225" />
+			<hotspot background="assets/misc/tip2.png" width="720" height="225" />
+			<hotspot background="assets/misc/tip3.png" width="720" height="225" />
+			<hotspot background="assets/misc/tip4.png" width="720" height="225" />
+			<hotspot background="assets/misc/tip5.png" width="720" height="225" />
+			<hotspot background="assets/misc/tip6.png" width="720" height="225" />
+		</scrollList>
+		
+		<container name="comment" x="0" y="942" width="720" height="244" alpha="1">
+			<hotspot background="assets/misc/comment.png" x="0" y="0" width="720" height="244" event="CHANGE_SCREEN" target="episode1_unlocked" />
+		</container>
+	</screen>
+	
+</data>

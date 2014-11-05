@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<screen name="ranking" x="0" y="0" width="720" height="1186" alpha="0">
+		<event type="CHANGE_ACTION_BAR" data="actionbar_ranking"/>
+		
+		<transitions>
+			<enter x="0" y="0" alpha="1" />
+			<leave x="0" y="0" alpha="0" />
+		</transitions>
+		
+		<container name="top" background="" x="0" y="0" width="720" height="78" alpha="1">
+			<image src="assets/home/background.png" x="0" y="0" width="720" height="1588" />
+			<image src="assets/ranking/tab_general.png" x="20" y="0" width="682" height="96" />
+			<hotspot x="0" y="0" width="361" height="96" event="CHANGE_SCREEN" target="ranking" />
+			<hotspot x="361" y="0" width="361" height="96" event="CHANGE_SCREEN" target="ranking_group" />
+		</container>
+		
+		<scrollList x="0" y="96" width="720" height="1186">
+			<hotspot x="0" y="0" width="720" height="1550" event="" target="">
+				<container background="assets/ranking/general.png" x="25" y="25" width="649" height="1417" alpha="1">
+				</container>
+			</hotspot>
+		</scrollList>
+	</screen>
+	
+</data>

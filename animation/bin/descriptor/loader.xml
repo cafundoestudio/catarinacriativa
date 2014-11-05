@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<LoaderMax name="loader" maxConnections="1" load="true">
+		
+		<ImageLoader name="actionbar" url="assets/actionbar/actionbar.png" load="true" extimatedBytes="26544" />
+		<ImageLoader name="actionbar_color" url="assets/actionbar/actionbar_color.png" load="true" extimatedBytes="26544" />
+		<ImageLoader name="back" url="assets/actionbar/back.png" load="true" extimatedBytes="2122" />
+		<ImageLoader name="like" url="assets/actionbar/like.png" load="true" extimatedBytes="2398" />
+		<ImageLoader name="menu" url="assets/actionbar/menu.png" load="true" extimatedBytes="2704" />
+		<ImageLoader name="stars" url="assets/actionbar/stars.png" load="true" extimatedBytes="3433" />
+		<ImageLoader name="background" url="assets/activities/activity/background.png" load="true" extimatedBytes="377497" />
+		<ImageLoader name="episode1" url="assets/episodes/episode1/episode1.png" load="true" extimatedBytes="157800" />
+		<ImageLoader name="action" url="assets/episodes/episode1/action.png" load="true" extimatedBytes="157800" />
+		<ImageLoader name="background" url="assets/episodes/episode1/background.png" load="true" extimatedBytes="30297" />
+		<ImageLoader name="gallery" url="assets/episodes/episode1/gallery.png" load="true" extimatedBytes="53622" />
+		<ImageLoader name="group" url="assets/episodes/episode1/group.png" load="true" extimatedBytes="58861" />
+		<ImageLoader name="memory" url="assets/episodes/episode1/memory.png" load="true" extimatedBytes="160431" />
+		<ImageLoader name="share" url="assets/episodes/episode1/share.png" load="true" extimatedBytes="35057" />
+		<ImageLoader name="shop" url="assets/episodes/episode1/shop.png" load="true" extimatedBytes="45301" />
+		<ImageLoader name="info" url="assets/episodes/episode1/info.png" load="true" extimatedBytes="45301" />
+		<ImageLoader name="small_white" url="assets/episodes/episode1/small_white.png" load="true" extimatedBytes="3061" />
+		<ImageLoader name="text_bg" url="assets/episodes/episode1/text_bg.png" load="true" extimatedBytes="3061" />
+		<ImageLoader name="text_big_bg" url="assets/episodes/episode1/text_big_bg.png" load="true" extimatedBytes="3061" />
+		<ImageLoader name="unlocked" url="assets/episodes/episode1/unlocked.png" load="true" extimatedBytes="82764" />
+		<ImageLoader name="video" url="assets/episodes/episode1/video.png" load="true" extimatedBytes="209641" />
+		<ImageLoader name="background" url="assets/home/background.png" load="true" extimatedBytes="338049" />
+		<ImageLoader name="activities" url="assets/listActivities/activities.png" load="true" extimatedBytes="197675" />
+		<ImageLoader name="activity1" url="assets/listActivities/activity1.png" load="true" extimatedBytes="197675" />
+		<ImageLoader name="activity2" url="assets/listActivities/activity2.png" load="true" extimatedBytes="145203" />
+		<ImageLoader name="activity3" url="assets/listActivities/activity3.png" load="true" extimatedBytes="127754" />
+		<ImageLoader name="activity4" url="assets/listActivities/activity4.png" load="true" extimatedBytes="120060" />
+		<ImageLoader name="menu" url="assets/misc/menu.png" load="true" extimatedBytes="120060" />
+		
+		<ImageLoader name="alert" url="assets/listEpisodes/alert.png" load="true" extimatedBytes="3318" />
+		<ImageLoader name="top_watch" url="assets/listEpisodes/top_watch.png" load="true" extimatedBytes="5000" />
+		<ImageLoader name="background" url="assets/listEpisodes/background.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episodes" url="assets/listEpisodes/episodes.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode1" url="assets/listEpisodes/episode1.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode2" url="assets/listEpisodes/episode2.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode3" url="assets/listEpisodes/episode3.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode4" url="assets/listEpisodes/episode4.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode5" url="assets/listEpisodes/episode5.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode6" url="assets/listEpisodes/episode6.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode6_locked" url="assets/listEpisodes/episode6_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode7" url="assets/listEpisodes/episode7.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode7_locked" url="assets/listEpisodes/episode7_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode8_locked" url="assets/listEpisodes/episode8_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode9_locked" url="assets/listEpisodes/episode9_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="episode10_locked" url="assets/listEpisodes/episode10_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="top_locked" url="assets/listEpisodes/top_locked.png" load="true" extimatedBytes="5000" />
+		<ImageLoader name="episodes_locked" url="assets/listEpisodes/episodes_locked.png" load="true" extimatedBytes="33415" />
+		<ImageLoader name="locked" url="assets/listEpisodes/locked.png" load="true" extimatedBytes="1433" />
+		
+		<ImageLoader name="shadow" url="assets/misc/shadow.png" load="true" extimatedBytes="1023" />
+		<ImageLoader name="splash" url="assets/misc/splash.png" load="true" extimatedBytes="376648" />
+		
+		<XMLLoader name="descriptor" url="descriptor/screenDescriptor.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="home" url="descriptor/home.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="games" url="descriptor/games.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="game1" url="descriptor/game1.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episodes" url="descriptor/episodes.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episodes_7" url="descriptor/episodes_7.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episodes_locked" url="descriptor/episodes_locked.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episodes_locked_3" url="descriptor/episodes_locked_3.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1" url="descriptor/episode1.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episode1_detail" url="descriptor/episode1_detail.xml" load="true" estimatedBytes="1024" />
+		
+	</LoaderMax>
+</data>

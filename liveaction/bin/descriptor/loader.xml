@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+	<LoaderMax name="loader" maxConnections="1" load="true">
+		
+		<ImageLoader name="actionbar" url="assets/actionbar/actionbar.png" load="true" extimatedBytes="5541" />
+		<ImageLoader name="actionbar_points" url="assets/actionbar/actionbar_points.png" load="true" extimatedBytes="5541" />
+		<ImageLoader name="back" url="assets/actionbar/back.png" load="true" extimatedBytes="1099" />
+		<ImageLoader name="comment" url="assets/actionbar/comment.png" load="true" extimatedBytes="1254" />
+		<ImageLoader name="comment" url="assets/actionbar/social.png" load="true" extimatedBytes="1254" />
+		<ImageLoader name="episodes" url="assets/actionbar/episodes.png" load="true" extimatedBytes="1149" />
+		<ImageLoader name="menu" url="assets/actionbar/menu.png" load="true" extimatedBytes="1110" />
+		<ImageLoader name="share" url="assets/actionbar/share.png" load="true" extimatedBytes="1270" />
+		<ImageLoader name="title" url="assets/actionbar/title.png" load="true" extimatedBytes="4231" />
+		<ImageLoader name="challenge" url="assets/challenge/challenge.png" load="true" extimatedBytes="25186" />
+		<ImageLoader name="challenge_1" url="assets/challenges/challenge_1.png" load="true" extimatedBytes="25186" />
+		<ImageLoader name="challenge_2" url="assets/challenges/challenge_2.png" load="true" extimatedBytes="24059" />
+		<ImageLoader name="closed_1" url="assets/challenges/closed_1.png" load="true" extimatedBytes="47909" />
+		<ImageLoader name="closed_2" url="assets/challenges/closed_2.png" load="true" extimatedBytes="47895" />
+		<ImageLoader name="closed_3" url="assets/challenges/closed_3.png" load="true" extimatedBytes="53364" />
+		<ImageLoader name="tab_closed" url="assets/challenges/tab_closed.png" load="true" extimatedBytes="5695" />
+		<ImageLoader name="tab_open" url="assets/challenges/tab_open.png" load="true" extimatedBytes="5473" />
+		<ImageLoader name="comment" url="assets/chat/comment.png" load="true" extimatedBytes="4467" />
+		<ImageLoader name="comments" url="assets/chat/comments.png" load="true" extimatedBytes="145408" />
+		<ImageLoader name="character_1" url="assets/choose/character_1.png" load="true" extimatedBytes="49238" />
+		<ImageLoader name="character_2" url="assets/choose/character_2.png" load="true" extimatedBytes="49590" />
+		<ImageLoader name="character_3" url="assets/choose/character_3.png" load="true" extimatedBytes="51339" />
+		<ImageLoader name="character_4" url="assets/choose/character_4.png" load="true" extimatedBytes="47926" />
+		<ImageLoader name="character_5" url="assets/choose/character_5.png" load="true" extimatedBytes="52312" />
+		<ImageLoader name="character_6" url="assets/choose/character_6.png" load="true" extimatedBytes="34429" />
+		<ImageLoader name="end_line" url="assets/choose/end_line.png" load="true" extimatedBytes="928" />
+		<ImageLoader name="help" url="assets/choose/help.png" load="true" extimatedBytes="1729" />
+		<ImageLoader name="white_box" url="assets/choose/white_box.png" load="true" extimatedBytes="13608" />
+		<ImageLoader name="character" url="assets/choose_character/character.png" load="true" extimatedBytes="251872" />
+		<ImageLoader name="popup_login" url="assets/choose_character/popup_login.png" load="true" extimatedBytes="58616" />
+		<ImageLoader name="episode1" url="assets/episodes/episode1.png" load="true" extimatedBytes="325186" />
+		<ImageLoader name="episode2" url="assets/episodes/episode2.png" load="true" extimatedBytes="120204" />
+		<ImageLoader name="episode3" url="assets/episodes/episode3.png" load="true" extimatedBytes="117079" />
+		<ImageLoader name="tab" url="assets/episodes/tab.png" load="true" extimatedBytes="5964" />
+		<ImageLoader name="awards" url="assets/home/awards.png" load="true" extimatedBytes="5591" />
+		<ImageLoader name="background" url="assets/home/background.png" load="true" extimatedBytes="109702" />
+		<ImageLoader name="challenges" url="assets/home/challenges.png" load="true" extimatedBytes="9849" />
+		<ImageLoader name="episodes" url="assets/home/episodes.png" load="true" extimatedBytes="5952" />
+		<ImageLoader name="info" url="assets/home/info.png" load="true" extimatedBytes="116584" />
+		<ImageLoader name="info_points" url="assets/home/info_points.png" load="true" extimatedBytes="73798" />
+		<ImageLoader name="interactivity" url="assets/home/interactivity.png" load="true" extimatedBytes="5611" />
+		<ImageLoader name="profile" url="assets/home/profile.png" load="true" extimatedBytes="26951" />
+		<ImageLoader name="ranking" url="assets/home/ranking.png" load="true" extimatedBytes="7201" />
+		<ImageLoader name="store" url="assets/home/store.png" load="true" extimatedBytes="4772" />
+		<ImageLoader name="splash" url="assets/misc/splash.png" load="true" extimatedBytes="566364" />
+		<ImageLoader name="prizes" url="assets/prizes/prizes.png" load="true" extimatedBytes="282955" />
+		<ImageLoader name="awards" url="assets/profile/awards.png" load="true" extimatedBytes="5612" />
+		<ImageLoader name="configs" url="assets/profile/configs.png" load="true" extimatedBytes="7549" />
+		<ImageLoader name="help" url="assets/profile/help.png" load="true" extimatedBytes="4190" />
+		<ImageLoader name="info" url="assets/profile/info.png" load="true" extimatedBytes="73798" />
+		<ImageLoader name="myorders" url="assets/profile/myorders.png" load="true" extimatedBytes="5915" />
+		<ImageLoader name="notifications" url="assets/profile/notifications.png" load="true" extimatedBytes="5742" />
+		<ImageLoader name="ranking" url="assets/profile/ranking.png" load="true" extimatedBytes="7246" />
+		<ImageLoader name="general" url="assets/ranking/general.png" load="true" extimatedBytes="337688" />
+		<ImageLoader name="group" url="assets/ranking/group.png" load="true" extimatedBytes="210050" />
+		<ImageLoader name="group_footer" url="assets/ranking/group_footer.png" load="true" extimatedBytes="24762" />
+		<ImageLoader name="tab_general" url="assets/ranking/tab_general.png" load="true" extimatedBytes="5118" />
+		<ImageLoader name="tab_group" url="assets/ranking/tab_group.png" load="true" extimatedBytes="5120" />
+		<ImageLoader name="menu" url="assets/misc/menu.png" load="true" extimatedBytes="5120" />
+		<ImageLoader name="products" url="assets/store/products.png" load="true" extimatedBytes="5120" />
+		
+		<XMLLoader name="descriptor" url="descriptor/screenDescriptor.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="choose" url="descriptor/choose.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="home" url="descriptor/home.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="challenge" url="descriptor/challenge.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="challenges" url="descriptor/challenges.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="challenges_closed" url="descriptor/challenges_closed.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="ranking" url="descriptor/ranking.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="ranking_group" url="descriptor/ranking_group.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="profile" url="descriptor/profile.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="chat" url="descriptor/chat.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="character" url="descriptor/character.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="prizes" url="descriptor/prizes.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="episodes" url="descriptor/episodes.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="store" url="descriptor/store.xml" load="true" estimatedBytes="1024" />
+		<XMLLoader name="home_points" url="descriptor/home_points.xml" load="true" estimatedBytes="1024" />
+		
+	</LoaderMax>
+</data>
