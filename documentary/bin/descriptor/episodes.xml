@@ -14,8 +14,8 @@
 		</container>
 		
 		<scrollList x="0" y="0" width="720" height="1186">
-			<hotspot background="" width="720" height="250" event="RECORD_DATA" target="syncPopup" >
-				<container width="720" height="250" background="assets/listEpisodes/item1.png" alpha="1">
+			<hotspot background="" width="720" height="196" event="RECORD_DATA" target="syncPopup" >
+				<container width="720" height="196" background="assets/listEpisodes/item1.png" alpha="1">
 				</container>
 			</hotspot>
 			<hotspot background="assets/listEpisodes/item2.png" width="720" height="250" event="CHANGE_SCREEN" target="episode1" />
